@@ -58,7 +58,7 @@ spec:
 
           - name: gen-epochs
             script:
-              image: python:alpine3.6
+              image: docker.io/python:alpine3.6
               command:
                 - python
               source: |

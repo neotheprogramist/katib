@@ -68,7 +68,7 @@ spec:
                     description: Number of training examples after optimization
                 steps:
                   - name: epochs-optimize
-                    image: python:alpine3.6
+                    image: docker.io/python:alpine3.6
                     command:
                       - sh
                       - -c
